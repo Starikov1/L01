@@ -250,9 +250,11 @@ section p {
   box-shadow: 0px 9px 36px rgba(0, 0, 0, 0.2);
   border-radius: 24px;
   margin-bottom: 50px;
+  position: relative;
 }
 
 .testimonials-section .testimonial-card::before {
+  content: "";
   width: 28px;
   position: absolute;
   height: 40px;
@@ -323,4 +325,97 @@ section p {
 
 .testimonials-section .testimonial-card:last-child {
   transform: translateX(20px);
+}
+
+/*Courses Section*/
+section.courses-section {
+  background: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  width: 100%;
+  overflow: auto;
+}
+
+.courses-section .wrapper h2.light {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 120%;
+  text-align: center;
+  color: #ffffff;
+
+  margin-bottom: 56px;
+  margin-top: 70px;
+}
+
+.courses-section .wrapper .course-cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-cards .course-card {
+  background-color: #ffffff;
+  border-radius: 24px;
+  width: 526px;
+  position: relative;
+}
+
+.course-cards .course-card:after {
+  content: "";
+  height: 8px;
+  right: 32px;
+  left: 32px;
+  bottom: 0;
+  background-color: var(--dark-blue-color);
+  border-radius: 24px;
+  position: absolute;
+}
+
+.course-cards .course-card img {
+  padding-left: 32px;
+  padding-right: 32px;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  border-radius: 24px;
+}
+
+.course-cards .course-card .info {
+  margin-top: 30px;
+  margin-bottom: 38px;
+  width: 100%;
+  padding: 0 32px;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.course-cards .course-card .info h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 150%;
+  color: var(--dark-blue-color);
+}
+
+.course-card .info .duration {
+  white-space: nowrap;
+  padding: 33px 0;
+  display: flex;
+  align-items: center;
+}
+
+.course-card .info .duration span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  color: var(--dark-blue-color);
+}
+
+.course-card .info .duration .svg-size {
+  width: 20px;
+  height: 20px;
+}
+
+.courses-section .wrapper a.btn {
+  margin-top: 40px;
+  margin-bottom: 70px;
+  float: right;
 }
