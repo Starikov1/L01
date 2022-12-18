@@ -419,3 +419,142 @@ section.courses-section {
   margin-bottom: 70px;
   float: right;
 }
+
+/*App Section*/
+
+.app-section {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.app-section p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--dark-blue-color);
+
+  margin-bottom: 45px;
+  margin-top: 13px;
+}
+
+.app-btns {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.app-btn {
+  background-color: var(--dark-color);
+  padding: 20px 31px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.app-btn span {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 200%;
+  color: #ffffff;
+}
+
+/*footer*/
+
+footer {
+  background-color: var(--dark-color);
+  width: 100%;
+  padding: 70px 0;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer h3 {
+  color: var(--orange-color);
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+
+  margin-bottom: 14px;
+}
+
+footer .wrapper .links-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 2fr 3fr;
+}
+
+.links-container .links ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.links-container .links li {
+  padding-bottom: 9px;
+}
+
+footer .wrapper .links {
+  display: inline-block;
+}
+
+.links .social {
+  display: flex;
+  gap: 28px;
+  margin-left: 28px;
+}
+
+.links .social a svg {
+  width: 24px;
+  height: 24px;
+}
+
+footer .wrapper .copyright {
+  margin-top: 32px;
+}
+
+footer form {
+  margin-top: 16px;
+  margin-left: 20px;
+  position: relative;
+}
+
+footer form input {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: black;
+
+  border: none;
+  padding: 8px 32px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+footer form .submit-btn {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--dark-blue-color);
+  border-radius: 8px;
+  padding: 8px 32px;
+  border: 0;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
