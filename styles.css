@@ -66,6 +66,17 @@ nav {
   width: 1134px;
 }
 
+nav.scrolled {
+  background-color: var(--dark-color);
+  box-shadow: 0, 16px, 14px -8px rgb(0, 0, 0, 0.3);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  z-index: 100;
+  top: 0;
+  padding: 12px;
+  transition: all 500ms ease;
+}
+
 nav .logo {
   font-family: "Raleway";
   font-style: normal;
